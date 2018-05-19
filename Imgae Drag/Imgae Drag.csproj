@@ -66,7 +66,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\DragImage.cs" />
+    <Compile Include="Assets\Script\CubeGenerator.cs" />
+    <Compile Include="Assets\Script\DragImage.cs" />
+    <Compile Include="Assets\Script\InPutController.cs" />
+    <Compile Include="Assets\Script\Roate.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
